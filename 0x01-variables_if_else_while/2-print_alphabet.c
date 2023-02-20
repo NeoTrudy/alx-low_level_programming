@@ -2,18 +2,17 @@
 #include <unistd.h>
 /**
 * main - Entry point
-* Description: prints the alphabet in lowercase 
-* Return: Always 0 (success)
+* Description: prints the alphabet in lowercase\n
+* Return: Always 0 (Success)
 */
 int main(void)
 {
-int ch;
+	int ch;
 
-for (ch = 'a'; ch <= 'z'; ch++)
-{
-putchar(ch);
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n')
+return (0)
 }
-putchar(' ');
-return (0);
-}
-
