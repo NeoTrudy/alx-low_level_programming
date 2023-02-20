@@ -18,7 +18,6 @@ for (ch = 'A'; ch <= 'Z'; ch++)
 {
 putchar(ch);
 }
-putchar(' ');
+putchar('\n');
 return (0);
 }
-
