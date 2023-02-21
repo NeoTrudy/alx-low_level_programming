@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <unistd.h>
 /**
@@ -40,7 +39,6 @@ putchar(' ');
 }
 }
 }
-putchar(' ');
+putchar('\n');
 return (0);
 }
-
